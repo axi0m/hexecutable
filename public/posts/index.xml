@@ -2,39 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kevin Dienst&#39;s Blog</title>
-    <link>http://kevindienst.blog/posts/</link>
+    <link>https://kevindienst.blog/posts/</link>
     <description>Recent content in Posts on Kevin Dienst&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2019 08:17:59 -0600</lastBuildDate><atom:link href="http://kevindienst.blog/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo</title>
-      <link>http://kevindienst.blog/posts/hugo/</link>
-      <pubDate>Thu, 12 Dec 2019 08:17:59 -0600</pubDate>
-      
-      <guid>http://kevindienst.blog/posts/hugo/</guid>
-      <description>Hugo This site was created using Hugo as my static site generator! In addition the site runs on a VPS by Digital Ocean and the web server is Caddy Server.
-Please take a look, they&amp;rsquo;re all awesome projects and if you want to support them, use DO for your server hosting needs and look at sponsoring Caddy Server on GitHub.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 12 Dec 2019 07:49:34 -0600</lastBuildDate><atom:link href="https://kevindienst.blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://kevindienst.blog/posts/about/</link>
+      <link>https://kevindienst.blog/posts/about/</link>
       <pubDate>Thu, 12 Dec 2019 07:49:34 -0600</pubDate>
       
-      <guid>http://kevindienst.blog/posts/about/</guid>
+      <guid>https://kevindienst.blog/posts/about/</guid>
       <description>About Me Hello! 👋
 For my day job I work at a Fortune 500 company helping with offensive security and network security monitoring. I am a consummate student of Information Security/Cybersecurity. My current focus areas include Red Team Ops, Infrastructure, and Python. Historically I&amp;rsquo;ve worked on large scale enterprise SIEM deployments, full-packet capture systems, forward and reverse proxies, etc.
 When I&amp;rsquo;m not working I spend my time playing RPG games 🧙‍♂️, board games 🎲, and watching Sci-Fi films 👾.</description>
-    </item>
-    
-    <item>
-      <title>KringleCon II</title>
-      <link>http://kevindienst.blog/posts/kringlecon2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://kevindienst.blog/posts/kringlecon2/</guid>
-      <description>KringleCon II / Holiday Hack Challenge 2019 Placeholder for writeup for HHC2019</description>
     </item>
     
   </channel>
