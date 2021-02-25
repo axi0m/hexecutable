@@ -1,0 +1,23 @@
+baseURL = "http://kevindienst.blog"
+languageCode = "en-us"
+title = "Kevin Dienst's Blog"
+theme = "m10c"
+[params]
+    author = "Kevin Dienst"
+    description = "RPGs, Board games, and Python! 🐍"
+    avatar = "avatar.png"
+[[params.social]]
+  name = "github"
+  url = "https://github.com/axi0m"
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/kevindienst"
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/kevindienst"
+[params.style]
+  darkestColor = "#d35050"
+  darkColor = "#212121"
+  lightColor = "#f5e3e0"
+  lightestColor = "#f5f5f5"
+  primaryColor = "#fff"

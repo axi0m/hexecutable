@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://kevindienst.blog/posts/hugo/</loc>
+    <lastmod>2019-12-12T08:17:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kevindienst.blog/</loc>
+    <lastmod>2019-12-12T08:17:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kevindienst.blog/posts/</loc>
+    <lastmod>2019-12-12T08:17:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kevindienst.blog/posts/about/</loc>
+    <lastmod>2019-12-12T07:49:34-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kevindienst.blog/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://kevindienst.blog/posts/kringlecon2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://kevindienst.blog/tags/</loc>
+  </url>
+  
+</urlset>
