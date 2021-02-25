@@ -1,7 +1,7 @@
-baseURL = "http://kevindienst.blog"
+baseURL = "https://kevindienst.blog"
 languageCode = "en-us"
 title = "Kevin Dienst's Blog"
-theme = "m10c"
+theme = "hug-theme-m10c"
 [params]
     author = "Kevin Dienst"
     description = "RPGs, Board games, and Python! 🐍"
