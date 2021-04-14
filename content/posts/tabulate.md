@@ -1,5 +1,6 @@
 ---
 title: "Tabulate"
+date: 2021-04-13T20:54:00-05:00
 draft: false
 ---
 
@@ -30,7 +31,9 @@ print(tabulate(example_list, headers=["City","State","Country"], tablefmt="prett
 
 ### Windows ###
 
-`pipenv run python .\tabulate_example.py`
+```shell
+pipenv run python .\tabulate_example.py
+```
 
 ### Output ###
 
