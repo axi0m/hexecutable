@@ -14,9 +14,9 @@
       
       <guid>https://kevindienst.blog/posts/tabulate/</guid>
       <description>Tabulate Tabulate is a handy Python package on PyPI you can install to make fancy terminal tables.
-Install With pipenv pipenv install tabulate
-With pip and virtualenv virtualenv tabulate pip install tabulate --user
-Example Take a list of lists, and use tabulate to create pretty terminal tables. I created a simple file called tabulate_example.py in a dedicated venv.
+Install With pipenv
+pipenv install tabulate With pip and virtualenv
+virtualenv tabulate pip install tabulate --user Example Take a list of lists, and use tabulate to create pretty terminal tables. I created a simple file called tabulate_example.py in a dedicated venv.
 from tabulate import tabulate example_list = [[&amp;#34;Beverly Hills&amp;#34;,&amp;#34;California&amp;#34;, &amp;#34;United States&amp;#34;],[&amp;#34;Minneapolis&amp;#34;, &amp;#34;Minnesota&amp;#34;, &amp;#34;United States&amp;#34;],[&amp;#34;Chicago&amp;#34;,&amp;#34;Illinois&amp;#34;,&amp;#34;United States&amp;#34;]] print(tabulate(example_list, headers=[&amp;#34;City&amp;#34;,&amp;#34;State&amp;#34;,&amp;#34;Country&amp;#34;], tablefmt=&amp;#34;pretty&amp;#34;)) Windows pipenv run python .</description>
     </item>
     

@@ -11,11 +11,17 @@ draft: false
 ## Install ##
 
 With pipenv
-`pipenv install tabulate`
+
+```powershell
+pipenv install tabulate
+```
 
 With pip and virtualenv
-`virtualenv tabulate`
-`pip install tabulate --user`
+
+```powershell
+virtualenv tabulate
+pip install tabulate --user
+```
 
 ## Example ##
 
@@ -31,7 +37,7 @@ print(tabulate(example_list, headers=["City","State","Country"], tablefmt="prett
 
 ### Windows ###
 
-```shell
+```powershell
 pipenv run python .\tabulate_example.py
 ```
 
