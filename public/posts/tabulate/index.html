@@ -14,16 +14,16 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Tabulate"/>
 <meta name="twitter:description" content="Tabulate Tabulate is a handy Python package on PyPI you can install to make fancy terminal tables.
-Install With pipenv pipenv install tabulate
-With pip and virtualenv virtualenv tabulate pip install tabulate --user
-Example Take a list of lists, and use tabulate to create pretty terminal tables. I created a simple file called tabulate_example.py in a dedicated venv.
+Install With pipenv
+pipenv install tabulate With pip and virtualenv
+virtualenv tabulate pip install tabulate --user Example Take a list of lists, and use tabulate to create pretty terminal tables. I created a simple file called tabulate_example.py in a dedicated venv.
 from tabulate import tabulate example_list = [[&#34;Beverly Hills&#34;,&#34;California&#34;, &#34;United States&#34;],[&#34;Minneapolis&#34;, &#34;Minnesota&#34;, &#34;United States&#34;],[&#34;Chicago&#34;,&#34;Illinois&#34;,&#34;United States&#34;]] print(tabulate(example_list, headers=[&#34;City&#34;,&#34;State&#34;,&#34;Country&#34;], tablefmt=&#34;pretty&#34;)) Windows pipenv run python ."/>
 
     <meta property="og:title" content="Tabulate" />
 <meta property="og:description" content="Tabulate Tabulate is a handy Python package on PyPI you can install to make fancy terminal tables.
-Install With pipenv pipenv install tabulate
-With pip and virtualenv virtualenv tabulate pip install tabulate --user
-Example Take a list of lists, and use tabulate to create pretty terminal tables. I created a simple file called tabulate_example.py in a dedicated venv.
+Install With pipenv
+pipenv install tabulate With pip and virtualenv
+virtualenv tabulate pip install tabulate --user Example Take a list of lists, and use tabulate to create pretty terminal tables. I created a simple file called tabulate_example.py in a dedicated venv.
 from tabulate import tabulate example_list = [[&#34;Beverly Hills&#34;,&#34;California&#34;, &#34;United States&#34;],[&#34;Minneapolis&#34;, &#34;Minnesota&#34;, &#34;United States&#34;],[&#34;Chicago&#34;,&#34;Illinois&#34;,&#34;United States&#34;]] print(tabulate(example_list, headers=[&#34;City&#34;,&#34;State&#34;,&#34;Country&#34;], tablefmt=&#34;pretty&#34;)) Windows pipenv run python ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kevindienst.blog/posts/tabulate/" /><meta property="article:section" content="posts" />
@@ -83,12 +83,12 @@ from tabulate import tabulate example_list = [[&#34;Beverly Hills&#34;,&#34;Cali
       <h1 id="tabulate">Tabulate</h1>
 <p><a href="https://pypi.org/project/tabulate/">Tabulate</a> is a handy Python package on PyPI you can install to make fancy terminal tables.</p>
 <h2 id="install">Install</h2>
-<p>With pipenv
-<code>pipenv install tabulate</code></p>
-<p>With pip and virtualenv
-<code>virtualenv tabulate</code>
-<code>pip install tabulate --user</code></p>
-<h2 id="example">Example</h2>
+<p>With pipenv</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">pipenv install tabulate
+</code></pre></div><p>With pip and virtualenv</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">virtualenv tabulate
+pip install tabulate --user
+</code></pre></div><h2 id="example">Example</h2>
 <p>Take a list of lists, and use tabulate to create pretty terminal tables. I created a simple file called tabulate_example.py in a dedicated venv.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> tabulate <span style="color:#f92672">import</span> tabulate
 
@@ -96,7 +96,7 @@ example_list <span style="color:#f92672">=</span> [[<span style="color:#e6db74">
 
 <span style="color:#66d9ef">print</span>(tabulate(example_list, headers<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;City&#34;</span>,<span style="color:#e6db74">&#34;State&#34;</span>,<span style="color:#e6db74">&#34;Country&#34;</span>], tablefmt<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;pretty&#34;</span>))
 </code></pre></div><h3 id="windows">Windows</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pipenv run python .<span style="color:#ae81ff">\t</span>abulate_example.py
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">pipenv run python .\tabulate_example.py
 </code></pre></div><h3 id="output">Output</h3>
 <p><img src="/tabulate_output.png" alt="tabulate output"></p>
 <h2 id="use-case">Use Case</h2>
