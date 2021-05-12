@@ -5,7 +5,7 @@ theme = "hugo-theme-m10c"
 [params]
     author = "Kevin Dienst"
     description = "RPGs, Board games, and Python! 🐍"
-    avatar = "avatar.png"
+    avatar = "avatar.jpg"
 [[params.social]]
   name = "github"
   url = "https://github.com/axi0m"
