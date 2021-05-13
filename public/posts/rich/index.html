@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html  dir="ltr" lang="en" data-theme="dark"><head>
-    <title> Kevin Dienst | Kevin Dienst&#39;s Blog </title>
+    <title> Kevin Dienst | Rich </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.83.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -41,10 +41,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/posts/rich/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Kevin Dienst's Blog" />
     
     
     
@@ -63,8 +62,8 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Kevin Dienst&#39;s Blog"/>
-<meta name="twitter:description" content="RPGs, Board games, and Python! 🐍"/>
+<meta name="twitter:title" content="Rich"/>
+<meta name="twitter:description" content="If you find yourself constantly creating command-line interfaces and have not heard of rich, take a few hours next week and play with it!"/>
 
 
     
@@ -128,101 +127,48 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-
     <div class="post  animated fadeInDown ">
-        
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>Rich</h3>
+                
+            </div>
+
+            <p>If you find yourself constantly creating command-line interfaces and have not heard of <a href="https://github.com/willmcgugan/rich">rich</a>, take a few hours next week and play with it!</p>
+<p>Historically I&rsquo;ve used <code>termcolor</code> and <code>colorama</code> to handle the pretty terminal colors in Python programs I write but now that I&rsquo;ve discovered <code>rich</code> I&rsquo;m not sure I&rsquo;ll ever go back. The project is well-maintained, feature rich and Will the author seems to have put a lot of effort into it.</p>
+<h2 id="install">Install</h2>
+<p>I prefer to use <code>pipenv</code> but you can use normal <code>pip</code> or <code>poetry</code> too of course.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">pip</span> <span class="n">install</span> <span class="n">rich</span>
+<span class="n">pipenv</span> <span class="n">install</span> <span class="n">rich</span>
+</code></pre></div><h2 id="usage">Usage</h2>
+<p>This is mentioned in detail on the README for Rich but this was the most immediately useful example I took away for my CLI programs.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">rich.console</span> <span class="kn">import</span> <span class="n">Console</span>
+
+<span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+
+<span class="n">console</span><span class="o">.</span><span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;[+] Building the mechtronics matrix splicer...&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">&#34;bold green&#34;</span><span class="p">)</span>
+</code></pre></div><p>In addition there is a wonderful <code>track()</code> function you can use to wrap around an iterator and have rich progress bars in your console. I have used this in some non-public programs but have yet to add it to anything that&rsquo;s on my GitHub repos or Gists.</p>
+<h2 id="replacing-tabulate">Replacing Tabulate</h2>
+<p>I <a href="https://kevindienst.blog/posts/tabulate/">blogged</a> about using the package <code>tabulate</code> previously when I developed a small API client to interact with AWS EC2 resources using <code>boto3</code> but after finding the <code>rich</code> package I think I&rsquo;m goint to explore using its table rendering features instead.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://github.com/willmcgugan/rich">Rich</a></li>
+<li><a href="https://realpython.com/command-line-interfaces-python-argparse/">RealPython</a></li>
+<li><a href="https://termcolor.readthedocs.io/">Termcolor</a></li>
+<li><a href="https://github.com/tartley/colorama">Colorama</a></li>
+</ul>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
         
     </div>
 
-    
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/posts/rich/">Rich</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>If you find yourself constantly creating command-line interfaces and have not heard of rich, take a few hours next week and play with it!</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Thu, May 13, 2021
-                                             </span>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/posts/tabulate/">Tabulate</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>Tabulate Tabulate is a handy Python package on PyPI you can install to make fancy terminal tables.</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Tue, Apr 13, 2021
-                                             </span>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/posts/about/">About</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>About Me Hello! 👋
-For my day job I work at a Fortune 500 company helping with offensive security and network security monitoring.</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Thu, Dec 12, 2019
-                                             </span>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    <div class="pagination">
-        
-
-
-    </div>
 
         </div>
     </div>
