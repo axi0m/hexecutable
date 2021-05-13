@@ -1,23 +1,37 @@
 baseURL = "https://kevindienst.blog"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "Kevin Dienst's Blog"
-theme = "hugo-theme-m10c"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
 [params]
-    author = "Kevin Dienst"
-    description = "RPGs, Board games, and Python! 🐍"
-    avatar = "avatar.jpg"
-[[params.social]]
-  name = "github"
-  url = "https://github.com/axi0m"
-[[params.social]]
-  name = "twitter"
-  url = "https://twitter.com/kevindienst"
-[[params.social]]
-  name = "linkedin"
-  url = "https://linkedin.com/in/kevindienst"
-[params.style]
-  darkestColor = "#d35050"
-  darkColor = "#212121"
-  lightColor = "#f5e3e0"
-  lightestColor = "#f5f5f5"
-  primaryColor = "#fff"
+title = "Kevin Dienst's Blog"
+author = "Kevin Dienst"
+description = "RPGs, Board games, and Python! 🐍"
+profilePicture = "images/avatar.jpg"
+displayMode = "dark"
+# Required for Chroma Hugo Syntax Highlighting
+customCss = ["css/syntax.css"]
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/axi0m"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/kevindienst"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/kevindienst"
