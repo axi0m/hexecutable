@@ -4,8 +4,6 @@ date: 2021-04-13T20:54:00-05:00
 draft: false
 ---
 
-# Tabulate #
-
 [Tabulate](https://pypi.org/project/tabulate/) is a handy Python package on PyPI you can install to make fancy terminal tables.
 
 ## Install ##
