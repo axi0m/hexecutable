@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html  dir="ltr" lang="en" data-theme="dark"><head>
-    <title> Kevin Dienst | Posts </title>
+    <title> Kevin Dienst | Podcasts </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.83.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -41,10 +41,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/posts/">
+    <link rel="canonical" href="/posts/podcasts/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="Kevin Dienst's Blog" />
     
     
     
@@ -63,8 +62,8 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="RPGs, Board games, and Python! 🐍"/>
+<meta name="twitter:title" content="Podcasts"/>
+<meta name="twitter:description" content="I use the Pocket Casts app to download a few podcasts I listen to, however I also wanted to download and keep all the episodes from some of these podcasts as an archive if you will on my machine."/>
 
 
     
@@ -128,53 +127,39 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2021</div>
+            <div class="post-title">
+                <h3>Podcasts</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/podcasts/" title="Podcasts">Podcasts</a>
-                                <div class="post-time"><span class="date"> May 23 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+            </div>
+
+            <p>I use the Pocket Casts app to download a few podcasts I listen to, however I also wanted to download and keep all the episodes from some of these podcasts as an archive if you will on my machine. Space is limited on my phone where I do most of my podcast listening but I&rsquo;ve got ample space on my primary machine.</p>
+<p>Thus I wrote a small python podcast downloader that takes the RSS URL, parses the feed and its entries, identify the actual download link and downloads to a directory of my choosing if the episode isn&rsquo;t already downloaded.</p>
+<p>A few packages that I found super useful when writing this are:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">rich</span>
+<span class="n">feedparser</span>
+<span class="n">requests</span>
+<span class="n">pathlib</span>
+<span class="n">argparse</span>
+</code></pre></div><p>Argparse and pathlib are part of the standard library but rich, feedparser and requests you&rsquo;ll have to install or use a Pipenv/requirements.txt file to get if necessary. An example of running this after the dependencies are installed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-cmd" data-lang="cmd">pipenv run python .\download_podcast_episodes.py --directory <span class="s2">&#34;C:\Podcasts\&#34;</span>
+</code></pre></div><p>Example output if you enable warnings just to verify you&rsquo;ve already got files downloaded.</p>
+<p><img src="/images/podcast_downloader_warnings_enabled.png" alt="Output showing files are already downloaded" title="Podcast downloader output with warnings"></p>
+<script type="application/javascript" src="https://gist.github.com/axi0m/be404e2aae6cd78b4db7fe1ed7b2d3c5.js"></script>
+
+</div>
+        <div class="post-footer">
+            <div class="info">
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/rich/" title="Rich">Rich</a>
-                                <div class="post-time"><span class="date"> May 13 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/tabulate/" title="Tabulate">Tabulate</a>
-                                <div class="post-time"><span class="date"> Apr 13 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">2019</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/about/" title="About">About</a>
-                                <div class="post-time"><span class="date"> Dec 12 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>
