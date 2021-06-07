@@ -6,7 +6,16 @@
     <description>Recent content on Kevin Dienst&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 May 2021 06:40:46 -0500</lastBuildDate><atom:link href="https://kevindienst.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 20:18:07 -0500</lastBuildDate><atom:link href="https://kevindienst.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcasts</title>
+      <link>https://kevindienst.blog/posts/podcasts/</link>
+      <pubDate>Sun, 23 May 2021 20:18:07 -0500</pubDate>
+      
+      <guid>https://kevindienst.blog/posts/podcasts/</guid>
+      <description>I use the Pocket Casts app to download a few podcasts I listen to, however I also wanted to download and keep all the episodes from some of these podcasts as an archive if you will on my machine.</description>
+    </item>
+    
     <item>
       <title>Rich</title>
       <link>https://kevindienst.blog/posts/rich/</link>
@@ -31,7 +40,7 @@
       <pubDate>Thu, 12 Dec 2019 07:49:34 -0600</pubDate>
       
       <guid>https://kevindienst.blog/posts/about/</guid>
-      <description>About Me Hello! 👋
+      <description>Hello! 👋
 For my day job I work at a Fortune 500 company helping with offensive security and network security monitoring.</description>
     </item>
     
