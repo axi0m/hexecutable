@@ -1,7 +1,7 @@
 ---
 title: "Discovery"
 date: 2022-08-19T10:16:29-05:00
-draft: true
+draft: false
 ---
 
 ## OV-103: Discovery
