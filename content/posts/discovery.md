@@ -31,7 +31,7 @@ I have a multimeter which was handy to verify connectivity between soldered conn
 
 ### References
 
-- [Design By Phyx]('https://phyx.be/STS/')
-- [Adafruit Product]('https://www.adafruit.com/product/5414')
-- [Wikipedia]('https://en.wikipedia.org/wiki/Space_Shuttle_Discovery')
-- [NASA OV-103]('https://www.nasa.gov/centers/kennedy/shuttleoperations/orbiters/discovery-info.html')
+- [Design By Phyx](https://phyx.be/STS/')
+- [Adafruit Product](https://www.adafruit.com/product/5414)
+- [Wikipedia](https://en.wikipedia.org/wiki/Space_Shuttle_Discovery)
+- [NASA OV-103](https://www.nasa.gov/centers/kennedy/shuttleoperations/orbiters/discovery-info.html)
