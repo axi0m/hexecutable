@@ -27,11 +27,6 @@ title = "GitHub"
 url = "https://github.com/axi0m"
 
 [[params.socialIcons]]
-icon = "fab fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/kevindienst"
-
-[[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://linkedin.com/in/kevindienst"
