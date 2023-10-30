@@ -30,3 +30,8 @@ url = "https://github.com/axi0m"
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://linkedin.com/in/kevindienst"
+
+[[params.socialIcons]]
+icon = "fab fa-mastodon"
+title = "mastodon"
+url = "https://fosstodon.org/@axi0m"
