@@ -10,18 +10,27 @@ Thus I wrote a small python podcast downloader that takes the RSS URL, parses th
 
 A few packages that I found super useful when writing this are:
 
-```python
-rich
-feedparser
-requests
-pathlib
-argparse
-```
+- rich
+- feedparser
+- requests
+- pathlib
+- argparse
 
-Argparse and pathlib are part of the standard library but rich, feedparser and requests you'll have to install or use a Pipenv/requirements.txt file to get if necessary. An example of running this after the dependencies are installed.
+`argparse` and `pathlib` are part of the standard library but Rich, Feedparser and Requests you'll have to install.
+
+## Install dependencies
 
 ```cmd
-pipenv run python .\download_podcast_episodes.py --directory "C:\Podcasts\"
+poetry add feedparser
+poetry add rich
+poetry add requests
+poetry install
+```
+
+## Example run
+
+```cmd
+poetry run python .\download_podcast_episodes.py "C:\Podcasts\"
 ```
 
 Example output if you enable warnings just to verify you've already got files downloaded.
