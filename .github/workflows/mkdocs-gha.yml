@@ -1,0 +1,74 @@
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Material for MkDocs site to Pages
+
+on:
+  push:
+    branches:
+      - main
+  # workflow_dispatch allows the site to be rebuilt and published manually if needed
+  workflow_dispatch:
+
+# Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+permissions:
+  pages: write # to deploy to Pages
+  id-token: write # to verify the deployment originates from an appropriate source
+
+concurrency: pages-build-and-deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Running this action on a fork will likely fail anyway
+    # unless the forked repo also has access to material for mkdocs insiders
+    if: github.event.repository.fork == false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get install pngquant
+
+      # The .cache directory is used for 3rd party assets, as part of the privacy plugin.
+      # It is also used to cache the generated social media cards.
+      # Persisting the cache across builds dramatically speeds up the process.
+      - name: Load site cache
+        uses: actions/cache@v4
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      # We use poetry to manage mkdocs, plugins, etc
+      - name: Install poetry
+        run: pipx install poetry
+
+      - name: Setup Python
+        id: setup-python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          # This ensures the package cache for poetry/pip is persisted, again speeding up this build action.
+          cache: "poetry"
+
+      - name: Install deps
+        run: poetry install
+      - name: Build site
+        run: poetry run mkdocs build
+
+      # Upload the built site as an artifact, this will be used by the deploy job.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "site"
+
+  deploy:
+    needs: build
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
