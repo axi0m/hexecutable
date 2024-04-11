@@ -35,6 +35,6 @@ poetry run python .\download_podcast_episodes.py "C:\Podcasts\"
 
 Example output if you enable warnings just to verify you've already got files downloaded.
 
-![Output showing files are already downloaded](/images/podcast_downloader_warnings_enabled.png "Podcast downloader output with warnings")
+![Output showing files are already downloaded](../../static/images/podcast_downloader_warnings_enabled.png "Podcast downloader output with warnings")
 
 {{< gist axi0m be404e2aae6cd78b4db7fe1ed7b2d3c5 >}}

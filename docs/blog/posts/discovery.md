@@ -2,6 +2,7 @@
 title: "Discovery"
 date: 2022-08-19T10:16:29-05:00
 draft: false
+author: axi0m
 ---
 
 ## OV-103: Discovery
@@ -15,7 +16,7 @@ The Space Shuttle Discovery was a NASA orbiter whose first mission was in 1984. 
 
 ## Soldering
 
-![Image of Discovery PCB](/images/Discovery_PCB.png)
+![Image of Discovery PCB](../../static/images/Discovery_PCB.png)
 
 I picked up this soldering kit from the wonderful people over at Adafruit, the kit was designed and built by Phyx. The instructions provided on the product page for
 Adafruit are very helpful, pay attention to the polarity indicators on the PCB components and be sure you've dialed in your soldering iron to the appropriate temp. For my 63Sn/37Pb leaded no clean solder
@@ -27,7 +28,7 @@ Don't forget to review the assembled picture online to get a sense for the appro
 
 I have a multimeter which was handy to verify connectivity between soldered connections. In addition you can simply turn the device on and verify that the LEDs are powered and flickering.
 
-![Image of Finished Discovery Model](/images/Discovery_finished.png)
+![Image of Finished Discovery Model](../../static/images/Discovery_finished.png)
 
 ### References
 
