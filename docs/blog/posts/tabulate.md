@@ -41,7 +41,7 @@ pipenv run python .\tabulate_example.py
 
 ### Output ###
 
-![tabulate output](/tabulate_output.png)
+![tabulate output](../../static/images/tabulate_output.png)
 
 ## Use Case ##
 
