@@ -14,6 +14,7 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
+  - meta
 plugins:
   - blog
   - git-authors
@@ -31,5 +32,5 @@ extra:
       link: https://fosstodon.org/@axi0m
     - icon: fontawesome/brands/github
       link: https://github.com/axi0m
-copyright: Copyright &copy; 2019 - 2024 - Kevin Dienst
+copyright: Copyright &copy; 2019 - 2025 - Kevin Dienst
 repo_url: https://github.com/axi0m/hexecutable
