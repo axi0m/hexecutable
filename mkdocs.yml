@@ -4,6 +4,7 @@ site_url: https://kevindienst.blog
 site_description: "Kevin Dienst's personal blog"
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: slate
   features:
