@@ -30,7 +30,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/mastodon 
-      link: https://fosstodon.org/@axi0m
+      link: https://infosec.exchange/@axi0m
     - icon: fontawesome/brands/github
       link: https://github.com/axi0m
 copyright: Copyright &copy; 2019 - 2025 - Kevin Dienst
