@@ -17,3 +17,8 @@ toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
 [project.markdown_extensions.zensical.extensions.glightbox]
+
+[[project.extra.social]]
+icon = "fontawesome/brands/mastodon"
+link = "https://infosec.exchange/@kevindienst"
+name = "Kevin on Mastodon"
