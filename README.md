@@ -4,7 +4,7 @@ Public repository for static website hosting
 
 ## Build Status
 
-[![Build and publish Zensical](https://github.com/axi0m/hexecutable/actions/workflows/zensical-gha.yml/badge.svg)](https://github.com/axi0m/hexecutable/actions/workflows/zensical-gha.yml)
+[![Build and publish Zensical](https://github.com/kevindienst/hexecutable/actions/workflows/zensical-gha.yml/badge.svg)](https://github.com/axi0m/hexecutable/actions/workflows/zensical-gha.yml)
 
 ## Built With
 
