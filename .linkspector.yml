@@ -1,0 +1,17 @@
+# .linkspector.yml
+dirs:
+  - docs            # your markdown source; adjust to your actual content dir
+useGitIgnore: true
+fileExtensions:
+  - md
+baseUrl: https://kevindienst.blog   # resolves root-relative links like /posts/foo/
+excludedDirs:
+  - ./site          # build output
+  - ./overrides
+ignorePatterns:
+  - pattern: '^https://(www\.)?(linkedin|x)\.com/.*$'   # bot-blocked, always 999/403
+timeout: 60000
+retryCount: 3
+aliveStatusCodes:
+  - 200
+  - 429
