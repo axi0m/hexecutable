@@ -33,7 +33,7 @@ In addition there is a wonderful `track()` function you can use to wrap around a
 
 ## Replacing Tabulate
 
-I [blogged](https://kevindienst.blog/blog/posts/tabulate/) about using the package `tabulate` previously when I developed a small API client to interact with AWS EC2 resources using `boto3` but after finding the `rich` package I think I'm goint to explore using its table rendering features instead.
+I [blogged](https://kevindienst.blog/blog/2021/04/13/tabulate/) about using the package `tabulate` previously when I developed a small API client to interact with AWS EC2 resources using `boto3` but after finding the `rich` package I think I'm goint to explore using its table rendering features instead.
 
 ## References
 
